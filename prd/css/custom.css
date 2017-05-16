@@ -1,0 +1,42 @@
+@font-face {
+    font-family: qt;
+    src: url(../fonts/questrial-regular.ttf);
+}
+
+* {
+    font-family: qt;
+}
+.nav-sm .profile{
+	display: block !important;
+}
+.nav-sm .profile .profile_pic{
+	width: 100%;
+}
+.nav-sm .profile .profile_info{
+	display: none;
+}
+.nav.side-menu>li>a{
+	text-transform: uppercase;
+}
+.nav.child_menu{
+	background: #fff;
+}
+.nav.child_menu li:hover{
+	background: #EEE;
+}
+.nav.child_menu>li>a{
+	color: #555;
+}
+.nav.child_menu>li li a.active{
+	color: #000;
+}
+.nav li li.current-page a{
+	color: #000;
+}
+.nav-sm ul.nav.child_menu{
+	background: #fff;
+	box-shadow: 3px 0px 5px rgba(0,0,0,0.1);
+}
+.sidebar-footer a{
+	width: 33%;
+}
